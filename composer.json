@@ -1,0 +1,22 @@
+{
+    "name": "jose/phpcurso",
+    "description": "Curso de coookies",
+    "type": "proyect",
+    "require": {
+        "phpunit/phpunit": "^9.6",
+        "symfony/var-dumper": "^6.0"
+    },
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+             "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "joserafa78",
+            "email": "jose.rafael.jimenez.6@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
