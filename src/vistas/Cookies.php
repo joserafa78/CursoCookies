@@ -52,7 +52,6 @@ setcookie(
 echo "Resultado de la Cookies: <br>";
 dd($_COOKIE);
 ?>
-
 <?php
 
 use App\vistas\includes\Footer;
