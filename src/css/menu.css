@@ -202,3 +202,79 @@ width: 350;
 height: 170;
 padding: 20px;
 }
+/* botones con degradado*/
+.btn {
+  border: none; 
+  color: white; 
+  padding: 14px 28px; 
+  cursor: pointer; 
+  border-radius: 5px; 
+  display: inline-block;
+  margin: 5px;
+}
+
+.primary {background-image: linear-gradient(to right, #007bff, #4ab2e2);} 
+.primary:hover {background-image: linear-gradient(to right, #0b7dda, #4ab2e2);}
+.secondary {background-image: linear-gradient(to right, #6c757d, #adb5bd);} 
+.secondary:hover {background-image: linear-gradient(to right, #848b92, #adb5bd);}
+.success {background-image: linear-gradient(to right, #28a745, #56c150);} 
+.success:hover {background-image: linear-gradient(to right, #34b556, #56c150);}
+.warning {background-image: linear-gradient(to right, #ffc107, #ffda4e);} 
+.warning:hover {background-image: linear-gradient(to right, #ffb200, #ffda4e);}
+.danger {background-image: linear-gradient(to right, #dc3545, #e0666e);} 
+.danger:hover {background-image: linear-gradient(to right, #d32838, #e0666e);}
+
+/* Input Text Formulario */
+/* https://codepen.io/fidalgodev/pen/bOGaVy */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-size: 62,5%;
+}
+
+.form_div {
+  height: 30%;
+	width: 50%;
+  background: #9ea5a8; /* fallback for old browsers */
+  background: linear-gradient(to right,#2c5364, #203a43, #0f2027);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+  color: #fff;
+}
+
+.form__label {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  margin-left: 2rem;
+  margin-top: 0.7rem;
+  display: block;
+  transition: all 0.3s;
+  transform: translateY(0rem);
+}
+
+.form__input {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-size: 1.2rem;
+	margin: 0 auto;
+  padding: 1.5rem 2rem;
+  border-radius: 0.2rem;
+  background-color: rgb(255, 255, 255);
+  border:none;
+  width: 90%;
+  display: block;
+  border-bottom: 0.3rem solid transparent;
+  transition: all 0.3s;
+}
+
+.form__input:placeholder-shown + .form__label {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translateY(-4rem);
+  transform: translateY(-4rem);
+}
