@@ -68,7 +68,7 @@ $casa_cde_michis = array(
     ]
 );
 echo "<p> Depurando con Funicon DD() <br><br>";
-dd($casa_cde_michis);
+//dd($casa_cde_michis);
 ?>
 
 
