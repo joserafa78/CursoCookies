@@ -19,6 +19,7 @@ class  Header
             array('url' => URL . 'src/vistas/Cookies.php', 'titulo' => 'Cookies'),
             array('url' => URL . 'src/vistas/scope.php', 'titulo' => 'Scope '),
             array('url' => URL . 'src/vistas/sesiones.php', 'titulo' => 'Sesiones'),
+            array('url' => URL . 'src/vistas/PeronalClase.php', 'titulo' => 'Personal'),
             array('url' => URL . 'src/vistas/#.php', 'titulo' => 'Fin'),
         ];
 
